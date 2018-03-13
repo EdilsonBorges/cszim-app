@@ -48,3 +48,5 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dragonfly', '~> 1.1.2'
+
+gem 'omniauth-steam', '1.0.5'
