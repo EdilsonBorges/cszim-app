@@ -27,11 +27,16 @@
           <div class="column is-one-third">
             <%= image_tag avatar_url(user), class: 'img-circle' %>
           </div>
-          <div class="column">
-            <h3 class="subtitle"><strong><%= user.nome %></strong></h3>
-            <%= link_to user, class: 'button' do %>
-              Histórico
-            <% end %>
+          <div class="column" style="display:flex">
+            <div>
+              <h3 class="subtitle"><strong><%= user.nome %></strong></h3>
+              <%= link_to user, class: 'button' do %>
+                Histórico
+              <% end %>
+            </div>
+            <div>
+              <%= image_tag rank_url(user), class: 'img-rank' %>
+            </div>
           </div>
         </div>
         <div class="columns">

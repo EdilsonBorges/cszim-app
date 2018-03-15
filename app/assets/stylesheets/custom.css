@@ -25,6 +25,11 @@
 .img-circle {
     border-radius: 50%;
 }
+.img-rank {
+  width: 100px;
+  margin-left: 60px;
+  margin-top: 15px;
+}
 .has-text-centered-important {
   text-align: center !important;
 }

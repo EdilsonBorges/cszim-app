@@ -123,6 +123,10 @@ module ApplicationHelper
     "http://gravatar.com/avatar/#{gravatar_id}.png?s=#{size}&d=identicon"
   end
 
+  def rank_url(user)
+    "rank/rank01.png"
+  end
+
   def label_status(status)
     if status
       "<span class='tag is-success'>Ativo</span>".html_safe
